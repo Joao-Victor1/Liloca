@@ -1,0 +1,112 @@
+/* Header style*/
+header{
+	background-color: #602234;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Title style */
+.title{
+	vertical-align: center;
+	margin-left: 15px;
+	font-family: Brush Script MT;
+	font-size: 30px;
+}
+.title a{
+	text-decoration: none;													
+	color: #f0ece2;
+}
+.title a:hover{
+	color: #b995a1;
+}
+
+/* Menu style */
+.menu{
+	margin-left: 1000px;
+	margin-top: -82px;
+
+}
+
+.menu ul li {
+	color: #f0ece2;
+	display: inline;
+	font-size: 25px;
+	margin: 5px;
+}
+.menu li:hover{
+	color: #b995a1;
+}
+
+.menu a{
+	text-decoration: none;
+	
+}
+
+/* Body style */
+body{
+	background-color: #b995a1;
+	border: solid 5px;
+	border-color: #602234;
+}
+
+/* Home Image style*/
+.homeImage{
+	margin-top: 10px;
+	margin-left: 2px;
+	display: inline-flex;
+}
+.homeImage img{
+	margin-left: 5px	;
+	border: solid 3px;
+	border-color: #2f2f30;
+	box-shadow: 3px 3px 3px 2px rgba(63, 55, 55, 0.2);
+}
+
+/* Sobre style */
+.sobres{
+	border: solid 2px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+	padding-bottom: 15px;
+	background-color: #602234;
+}
+.sobre{
+	font-family: sans-serif;
+	margin-left: 10px;
+	color: #f0ece2;
+}
+.sobreText p{
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: cursive;
+	color: #f0ece2;
+}
+
+/* Clientes style */
+.clienteTitle{
+	text-align: center;
+	color: #2f2f30;
+}
+.formBox{
+	background-color: #602234;
+	border: solid black 3px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	opacity: .5;
+	margin-left: 250px;
+	margin-right: 225px;
+	color: white;
+	text-align: center;
+
+}
+
+.btn_cliente{
+	margin-bottom: 10px;
+}
+
+/* Copyright style */
+.copyright{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
