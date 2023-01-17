@@ -7,8 +7,6 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.jpg">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<title> Liloca </title>
 </head>
 
@@ -20,7 +18,7 @@
 		<ul>
 			<a href="clientes.php"> <li> Clientes </li> </a>
 			<a href="festas.php"> <li> Festas </li> </a>
-			<a href="alteraCadastro.php"> <li> Cadastros </li> </a>
+			<a href="consultaTudo.php"> <li> Consulta </li> </a>
 		</ul>
 	</div>
 </header>
@@ -47,7 +45,7 @@
 			<input type="text" name="tema"  required=''/><br><br>
 			<label> Data da Festa: </label><br>
 			<input type="datetime-local" name="data_Festa" required=''/><br><br>
-			<input type="submit" name="btn_festa" class="btn_festa" value="Enviar"/><br><br>
+			<input type="submit" name="btn_festa" class="btn_festa" value="Enviar" style="cursor: pointer;"/><br><br>
 		</form>
 	</div>
 </body>

@@ -49,6 +49,10 @@ body{
 	border-color: #602234;
 }
 
+.container{
+	background-color: #b995a1;
+}
+
 /* Home Image style*/
 .homeImage{
 	margin-top: 10px;
@@ -110,3 +114,4 @@ body{
 	margin-bottom: 5px;
 	text-align: center;
 }
+
